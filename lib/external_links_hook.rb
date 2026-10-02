@@ -3,8 +3,8 @@
 class ExternalLinksHook < Redmine::Hook::ViewListener
   def view_layouts_base_html_head(context = {})
     javascript_include_tag(
-      'external_links',
-      plugin: 'external_links'
+      'redmine-external-links',
+      plugin: 'redmine-external-links'
     )
   end
 end

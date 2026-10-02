@@ -3,7 +3,7 @@
 require 'redmine'
 require_dependency File.expand_path('lib/external_links_hook', __dir__)
 
-Redmine::Plugin.register :external_links do
+Redmine::Plugin.register :redmine-external-links do
   name 'External Links'
   author 'Andreas Werner'
   description 'A simple plugin uses JavaScript to add target="_blank" and rel="noopener noreferrer" to links with class="external". Links pointing to your own Redmine host are excluded.'
